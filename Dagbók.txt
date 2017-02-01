@@ -1,0 +1,14 @@
+11/01/2017
+	- added Dagbók.
+	- Just started planing waht to do.
+18/01/2017
+	- last update didn't go in for some reason.
+	- Finaly found out what is was going to be making
+	- Im making a Gas detector were it detects gas and alerts user if there is a high level
+	  og gas in the air.
+	- added that user would get a sms if the gas detector would go of.
+01/02/2017
+	- haven't done the Dagbók in some time, in that time i have gotten the Gas detector working and the
+	  Heat/humitiy meter working.
+	- Today I was working a making all the thing work togather, most of the things worked
+	- Working on the LCG (display) 
