@@ -11,4 +11,8 @@
 	- haven't done the Dagbók in some time, in that time i have gotten the Gas detector working and the
 	  Heat/humitiy meter working.
 	- Today I was working a making all the thing work togather, most of the things worked
-	- Working on the LCG (display) 
+	- Working on the LCG (display)
+08/02/2017
+	- Worked on tyring to fix the gas detector and the screen display.
+	- got into some computer issuse.
+	- worked on the info about the project.
