@@ -16,3 +16,7 @@
 	- Worked on tyring to fix the gas detector and the screen display.
 	- got into some computer issuse.
 	- worked on the info about the project.
+22/02/2017
+	- Every thing is ready, think about adding new stuff to the project.
+	- Working on adding a wifi connection (taking some time).
+	- I'm also going to add a ethernet port.

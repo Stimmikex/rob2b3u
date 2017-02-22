@@ -1,4 +1,13 @@
+#include <FastIO.h>
+#include <I2CIO.h>
+#include <LCD.h>
+#include <LiquidCrystal.h>
+#include <LiquidCrystal_I2C.h>
+
 #include <DHT.h>
+
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2); 
+
 
 
 /*******
@@ -17,7 +26,9 @@ int humi = 2;
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
-
+  lcd.setCursor(0,1);
+  lcd.print("No Gas Leaking");
+  
   pinMode(buzzer, OUTPUT);
   pinMode(smokeA0, INPUT);
   Serial.begin(9600);
@@ -25,6 +36,7 @@ void setup() {
 }
 
 void loop() {
+  lcd.display();
   // MQ-7 sensor
   // Sensor readings may also be up to 2 seconds 'old' (its a very slow sensor)
   float h = dht.readHumidity();
