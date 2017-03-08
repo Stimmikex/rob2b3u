@@ -8,7 +8,7 @@
 #define DHTTYPE DHT22   // DHT 22  (AM2302)
 
 byte mac[] = { 0x90, 0xA2, 0xDA, 0x0F, 0x2A, 0x8D };
-byte ip[] = { 10, 220, 216, 82 };
+byte ip[] = { 10, 220, 216, 76 };
 byte gw[] = {10,220,216,1};
 byte subnet[] = { 255, 255, 255, 0 };
 

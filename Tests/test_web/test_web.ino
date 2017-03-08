@@ -23,14 +23,14 @@
 byte mac[] = {
   0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED
 };
-IPAddress ip(10,220,216,76);
+IPAddress ip(10,220,216,82);
 
 // Initialize the Ethernet server library
 // with the IP address and port you want to use
 // (port 80 is default for HTTP):
 EthernetServer server(80);
 int mq0_analogPin = A0;
-int mq1_analogPin = A1;
+//int mq1_analogPin = A1;
 void setup() {
   // Open serial communications and wait for port to open:
   Serial.begin(9600);
@@ -72,7 +72,7 @@ void loop() {
 
             client.println("<br />");
             int mq0_value = analogRead(mq0_analogPin);
-            int mq1_value = analogRead(mq1_analogPin);
+            //int mq1_value = analogRead(mq1_analogPin);
             if(mq0_value < 140){
             client.print("");
             }
@@ -87,7 +87,7 @@ void loop() {
             client.print("<H1> Warning!!! CO level high </H1>");
             }
             client.println("<br />Alcohol level");
-            client.print(mq1_value);
+            //client.print(mq1_value);
             client.println("<br />CO level");
             client.print(mq0_value);
             Serial.println(mq0_value);

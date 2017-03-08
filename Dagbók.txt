@@ -20,3 +20,9 @@
 	- Every thing is ready, think about adding new stuff to the project.
 	- Working on adding a wifi connection (taking some time).
 	- I'm also going to add a ethernet port.
+8/03/2017
+	- For the past week i have been working on getting the ethernet working.
+	- Still working on the ethernet.
+	- found out why the ethernet wasn't working, because of the wifi shield
+	- Going to finnish the ethernet thing then im going to start working on the sensors and connecting them
+	  to the net.

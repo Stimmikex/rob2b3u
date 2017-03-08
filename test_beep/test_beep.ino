@@ -16,7 +16,7 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
  https://www.hackster.io/Aritro
 
 *******/
-int buzzer = 10;
+int buzzer = 9;
 int smokeA0 = A0;
 int humi = 2;
 
