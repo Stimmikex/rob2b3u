@@ -1,3 +1,5 @@
+
+
 /*
   Web Server
 
@@ -17,6 +19,8 @@
 
 #include <SPI.h>
 #include <Ethernet.h>
+#include "DHT.h"
+#include <DHT.h>
 
 // Enter a MAC address and IP address for your controller below.
 // The IP address will be dependent on your local network:
@@ -29,16 +33,27 @@ IPAddress ip(10,220,216,76);
 // with the IP address and port you want to use
 // (port 80 is default for HTTP):
 EthernetServer server(80);
-int mq0_analogPin = A0;
-int mq1_analogPin = A1;
+int buzzer_digital = 9;
+int mq7_analogPin = A0;
+int humi_digital = 2;
+
+#define DHTPIN 2
+
+#define DHTTYPE DHT22
+DHT dht(DHTPIN, DHTTYPE);
+
 void setup() {
   // Open serial communications and wait for port to open:
   Serial.begin(9600);
+  dht.begin();
+  
   while (!Serial) {
     ; // wait for serial port to connect. Needed for Leonardo only
   }
 
-
+  pinMode(buzzer_digital, OUTPUT);
+  pinMode(mq7_analogPin, INPUT);
+  
   // start the Ethernet connection and the server:
   Ethernet.begin(mac, ip);
   server.begin();
@@ -71,27 +86,36 @@ void loop() {
           // output the value of each analog input pin
 
             client.println("<br />");
-            int mq0_value = analogRead(mq0_analogPin);
-            int mq1_value = analogRead(mq1_analogPin);
+            
+            float h = dht.readHumidity();
+            // Reads temperature as Celsius
+            float t = dht.readTemperature();
+            
+            int mq0_value;
+            int mq7_value = analogRead(mq7_analogPin);
+            
             if(mq0_value < 140){
-            client.print("");
+              client.print("");
             }
             if(mq0_value > 140){
-            client.print("<H1> Warning!!! Alcahol level high </H1>");
-            noTone(9);
-            delay(200);
-            tone(9, 523, 300);
-            delay(200);
-          }
-            else if(mq1_value > 140){
-            client.print("<H1> Warning!!! CO level high </H1>");
+              client.print("<H1> Warning!!! Alcahol level high </H1>");
+              noTone(9);
+              delay(200);
+              tone(9, 523, 300);
+              delay(200);
             }
-            client.println("<br />Alcohol level");
-            client.print(mq1_value);
-            client.println("<br />CO level");
-            client.print(mq0_value);
+            else if(mq7_value > 140){
+              client.print("<H1> Warning!!! CO level high </H1>");
+            }
+            client.println("<H1> Arduino </H1>");
+            client.println("<br />Humidity level: ");
+            client.print(h);
+            client.println("<br />Temperature: ");
+            client.print(t);
+            client.println("<br />CO level: ");
+            client.print(mq7_value);
             Serial.println(mq0_value);
-            Serial.println(mq1_value);
+            Serial.println(mq7_value);
           client.println("</html>");
           break;
         }

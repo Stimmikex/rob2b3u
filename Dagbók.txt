@@ -26,3 +26,8 @@
 	- found out why the ethernet wasn't working, because of the wifi shield
 	- Going to finnish the ethernet thing then im going to start working on the sensors and connecting them
 	  to the net.
+22/03/2017
+	- Finnaly!! I got the ethernet to work and also connected all the sensors
+	- Now im going to start working with the date ether use:
+		- Datebase
+		- or text file
