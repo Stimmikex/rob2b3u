@@ -31,3 +31,5 @@
 	- Now im going to start working with the date ether use:
 		- Datebase
 		- or text file
+24/03/2017
+	- Working on connection the arduino to a database
