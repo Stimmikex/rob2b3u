@@ -33,3 +33,5 @@
 		- or text file
 24/03/2017
 	- Working on connection the arduino to a database
+29/03/2017
+	- Got the connection to the server working, just need to work on how to get the data over from the Arduino.
