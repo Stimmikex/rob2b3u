@@ -1,2 +1,37 @@
-14/12/2016
-Bjó til dagbók og uppfærði skýrslu
+11/01/2017
+	- added Dagb�k.
+	- Just started planing waht to do.
+18/01/2017
+	- last update didn't go in for some reason.
+	- Finaly found out what is was going to be making
+	- Im making a Gas detector were it detects gas and alerts user if there is a high level
+	  og gas in the air.
+	- added that user would get a sms if the gas detector would go of.
+01/02/2017
+	- haven't done the Dagb�k in some time, in that time i have gotten the Gas detector working and the
+	  Heat/humitiy meter working.
+	- Today I was working a making all the thing work togather, most of the things worked
+	- Working on the LCG (display)
+08/02/2017
+	- Worked on tyring to fix the gas detector and the screen display.
+	- got into some computer issuse.
+	- worked on the info about the project.
+22/02/2017
+	- Every thing is ready, think about adding new stuff to the project.
+	- Working on adding a wifi connection (taking some time).
+	- I'm also going to add a ethernet port.
+8/03/2017
+	- For the past week i have been working on getting the ethernet working.
+	- Still working on the ethernet.
+	- found out why the ethernet wasn't working, because of the wifi shield
+	- Going to finnish the ethernet thing then im going to start working on the sensors and connecting them
+	  to the net.
+22/03/2017
+	- Finnaly!! I got the ethernet to work and also connected all the sensors
+	- Now im going to start working with the date ether use:
+		- Datebase
+		- or text file
+24/03/2017
+	- Working on connection the arduino to a database
+29/03/2017
+	- Got the connection to the server working, just need to work on how to get the data over from the Arduino.

@@ -1,12 +1,16 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.12.12)  15 DEC 2016 10:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.1.18)  5 APR 2017 09:58
 entering extended mode
-**./skyrsla.tex
-(skyrsla.tex
+**H:/Vor2017/Git/rob2b3u/skyrsla/skyrsla.tex
+(H:/Vor2017/Git/rob2b3u/skyrsla/skyrsla.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.
+cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.c
+lo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,26 +25,31 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.
+sty"
 Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.de
+f"
 File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc
+.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def
+"
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.df
+u"
 File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -277,7 +286,8 @@ File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.d
+fu"
 File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -318,7 +328,8 @@ File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.d
+fu"
 File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -342,20 +353,25 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel
+.sty"
 Package: babel 2016/04/23 3.9r The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Notandi\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts
+.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\Notandi\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-icelandic\icelandi
-c.ldf
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-iceland
+ic\icelandic.ldf"
 Language: icelandic 2016/01/14 v1.2b Icelandic support from the babel system
- ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel
+.def"
 File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
@@ -366,31 +382,39 @@ Package babel Info: Making " an active character on input line 127.
 \pl@right=\dimen106
 \pl@temp=\dimen107
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\grap
+hicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyv
+al.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\grap
+hics.sty"
 Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig
+.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\
+graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\
+pdftex.def"
 File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\in
+fwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\lt
+xcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
@@ -398,7 +422,8 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen108
 \Gin@req@width=\dimen109
 )
-(C:\Users\Notandi\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fanc
+yhdr.sty"
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip43
 \f@ncyO@elh=\skip44
@@ -410,7 +435,8 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
 )
-(C:\Users\Notandi\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\list
+ings.sty"
 \lst@mode=\count89
 \lst@gtempboxa=\box26
 \lst@token=\toks17
@@ -424,21 +450,25 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \lst@lineno=\count94
 \lst@maxwidth=\dimen113
 
-(C:\Users\Notandi\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstm
+isc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count95
 \lst@skipnumbers=\count96
 \lst@framebox=\box27
 )
-(C:\Users\Notandi\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\list
+ings.cfg"
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(C:\Users\Notandi\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor
+.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\
+color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -452,11 +482,11 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(C:\Users\Notandi\AppData\Roaming\MiKTeX\2.9\tex\latex\lipsum\lipsum.sty
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum
+.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count97
-)
-(skyrsla.aux)
+) (H:/Vor2017/Git/rob2b3u/skyrsla\skyrsla.aux)
 \openout1 = `skyrsla.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -472,7 +502,8 @@ LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 
-(C:\Users\Notandi\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-p
+df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count98
 \scratchdimen=\dimen114
@@ -485,15 +516,19 @@ LaTeX Font Info:    ... okay on input line 16.
 \MPnumerator=\count102
 \makeMPintoPDFobject=\count103
 \everyMPtoPDFconversion=\toks19
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+)
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pd
+ftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\if
+luatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\if
+pdf.sty"
 Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -501,22 +536,28 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epst
+opdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfe
+xt.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kv
+definekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvop
+tions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kv
+setkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Users\2509972569\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\et
+excmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -537,23 +578,29 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 19.
-
-<img/tskoli.png, id=1, 276.28218pt x 67.75313pt>
+ <img/tskoli.png, id=1, 276.28218pt x 67.75313pt>
 File: img/tskoli.png Graphic file (type png)
- <use img/tskoli.png>
+
+<use img/tskoli.png>
 Package pdftex.def Info: img/tskoli.png used on input line 22.
 (pdftex.def)             Requested size: 179.58128pt x 44.03899pt.
-
-<img/rob2b3u_img.jpg, id=3, 180.675pt x 180.675pt>
+ <img/rob2b3u_img.jpg, id=3, 180.675pt x 180.675pt>
 File: img/rob2b3u_img.jpg Graphic file (type jpg)
- <use img/rob2b3u_img.jpg>
+
+<use img/rob2b3u_img.jpg>
 Package pdftex.def Info: img/rob2b3u_img.jpg used on input line 23.
 (pdftex.def)             Requested size: 180.67455pt x 180.67455pt.
+ [1
 
-[1
-
-{C:/Users/Notandi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/tsk
-oli.png> <./img/rob2b3u_img.jpg>] (skyrsla.toc)
+{C:/Users/2509972569/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <H:/Vor
+2017/Git/rob2b3u/skyrsla/img/tskoli.png> <H:/Vor2017/Git/rob2b3u/skyrsla/img/ro
+b2b3u_img.jpg>]
+(H:/Vor2017/Git/rob2b3u/skyrsla\skyrsla.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 10.
+)
 \tf@toc=\write3
 \openout3 = `skyrsla.toc'.
 
@@ -562,98 +609,46 @@ File: img/tskoli.png Graphic file (type png)
 Package pdftex.def Info: img/tskoli.png used on input line 27.
 (pdftex.def)             Requested size: 85.35826pt x 20.9319pt.
  [2]
-(intro.tex <img/system.png, id=17, 700.6175pt x 447.6725pt>
-File: img/system.png Graphic file (type png)
+(H:/Vor2017/Git/rob2b3u/skyrsla\intro.tex)
+(H:/Vor2017/Git/rob2b3u/skyrsla\hardware.tex)
+(H:/Vor2017/Git/rob2b3u/skyrsla\timeplan.tex
+<img/ROB2B2U_Diagram.png, id=17, 2210.2575pt x 262.9825pt>
+File: img/ROB2B2U_Diagram.png Graphic file (type png)
 
-<use img/system.png>
-Package pdftex.def Info: img/system.png used on input line 4.
-(pdftex.def)             Requested size: 210.18686pt x 134.30278pt.
-) (hardware.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 5.
-) (timeplan.tex
-<img/gant.png, id=18, 760.34062pt x 422.32782pt>
-File: img/gant.png Graphic file (type png)
- <use img/gant.png>
-Package pdftex.def Info: img/gant.png used on input line 4.
-(pdftex.def)             Requested size: 228.10394pt x 126.69931pt.
-)
+<use img/ROB2B2U_Diagram.png>
+Package pdftex.def Info: img/ROB2B2U_Diagram.png used on input line 3.
+(pdftex.def)             Requested size: 442.04367pt x 52.59557pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (97.04367pt too wide) in paragraph at lines 3--4
+[][] 
+ []
 
 File: img/tskoli.png Graphic file (type png)
 <use img/tskoli.png>
+Package pdftex.def Info: img/tskoli.png used on input line 4.
+(pdftex.def)             Requested size: 85.35826pt x 20.9319pt.
+ [3])
+File: img/tskoli.png Graphic file (type png)
+ <use img/tskoli.png>
 Package pdftex.def Info: img/tskoli.png used on input line 31.
 (pdftex.def)             Requested size: 85.35826pt x 20.9319pt.
- [3 <./img/system.png>] (sudo.tex
-<img/flowchart.png, id=23, 332.24126pt x 294.09875pt>
-File: img/flowchart.png Graphic file (type png)
- <use img/flowchart.png>
-Package pdftex.def Info: img/flowchart.png used on input line 11.
-(pdftex.def)             Requested size: 99.67314pt x 88.2303pt.
-)
-(testing.tex) (conclution.tex)
+ [4 <H:/Vor2017/Git/rob2b3u/skyrsla/img/ROB2B2U_Diagram.png>] (H:/Vor2017/Git/r
+ob2b3u/skyrsla\sudo.tex
+<img/project.png, id=25, 873.664pt x 375.804pt>
+File: img/project.png Graphic file (type png)
+ <use img/project.png>
+Package pdftex.def Info: img/project.png used on input line 11.
+(pdftex.def)             Requested size: 436.83093pt x 187.90154pt.
+
+Overfull \hbox (91.83093pt too wide) in paragraph at lines 11--12
+[][] 
+ []
+
+) (H:/Vor2017/Git/rob2b3u/skyrsla\testing.tex)
+(H:/Vor2017/Git/rob2b3u/skyrsla\conclution.tex)
 File: img/tskoli.png Graphic file (type png)
  <use img/tskoli.png>
 Package pdftex.def Info: img/tskoli.png used on input line 35.
 (pdftex.def)             Requested size: 85.35826pt x 20.9319pt.
- [4 <./img/gant.png> <./img/flowchart.png>]
-File: img/tskoli.png Graphic file (type png)
- <use img/tskoli.png>
-Package pdftex.def Info: img/tskoli.png used on input line 35.
-(pdftex.def)             Requested size: 85.35826pt x 20.9319pt.
- [5] (references.tex) (skyrsla.bbl)
-File: img/tskoli.png Graphic file (type png)
-
-<use img/tskoli.png>
-Package pdftex.def Info: img/tskoli.png used on input line 39.
-(pdftex.def)             Requested size: 85.35826pt x 20.9319pt.
- [6] (appendix.tex (dagbok.txt)
-(C:\Users\Notandi\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-(../DHTtester_get_php_sql/DHTtester_get_php_sql.ino
-Overfull \hbox (74.90067pt too wide) in paragraph at lines 1--2
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
-File: img/tskoli.png Graphic file (type png)
-<use img/tskoli.png>
-Package pdftex.def Info: img/tskoli.png used on input line 40.
-(pdftex.def)             Requested size: 85.35826pt x 20.9319pt.
- [7]
-Overfull \hbox (164.87938pt too wide) in paragraph at lines 48--50
-[][][][][][][][][][][][][][][][][] 
- []
-
-))
-File: img/tskoli.png Graphic file (type png)
- <use img/tskoli.png>
-Package pdftex.def Info: img/tskoli.png used on input line 41.
-(pdftex.def)             Requested size: 85.35826pt x 20.9319pt.
- [8] (skyrsla.aux) ) 
-Here is how much of TeX's memory you used:
- 5704 strings out of 493333
- 71351 string characters out of 3139187
- 283077 words of memory out of 3000000
- 9131 multiletter control sequences out of 15000+200000
- 12452 words of font info for 31 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 40i,18n,43p,725b,2392s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Notandi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Notandi\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\Notandi\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Notandi\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\
-Notandi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
-> <C:\Users\Notandi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecrm1200.pk> <C:\Users\Notandi\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknapp
-en\ec\dpi600\ecrm1728.pk>
-Output written on skyrsla.pdf (8 pages, 253859 bytes).
-PDF statistics:
- 325 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ [5 <H:/Vor2017/Git/rob2b3u/skyrsla/img/project.png>]
+(H:/Vor2017/Git/rob2b3u/skyrsla\references.tex

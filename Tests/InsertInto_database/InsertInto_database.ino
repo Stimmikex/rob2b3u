@@ -16,6 +16,7 @@ MySQL_Connection conn((Client *)&client);
 void setup() {
   Serial.begin(9600);
   while (!Serial);
+    Ethernet.begin(mac);
     Serial.println("Connecting");
   if (conn.connect(server_ip, 3306, user, password)) {
     delay(1000);

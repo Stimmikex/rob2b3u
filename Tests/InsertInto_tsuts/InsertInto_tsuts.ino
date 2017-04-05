@@ -40,6 +40,8 @@
 #include <Ethernet.h>
 #include <MySQL_Connection.h>
 #include <MySQL_Cursor.h>
+#include "DHT.h"
+#include <DHT.h>
 
 byte mac_addr[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 
@@ -48,10 +50,23 @@ char user[] = "2509972569";              // MySQL user login username
 char password[] = "mypassword";
 
 // Sample query
-char INSERT_SQL[] = "INSERT INTO 25009972569_robtest.arduino (temp) VALUES (2.2)";
+char INSERT_SQL[] = "INSERT INTO 2509972569_robtest.arduino (temp, humi, mq7) VALUES (%d, %d, %d)"; //need to fix this
+
+
+// Sensors
+int buzzer_digital = 9;
+int mq7_analogPin = A0;
+int humi_digital = 2;
+
+#define DHTPIN 2
+
+#define DHTTYPE DHT22
+DHT dht(DHTPIN, DHTTYPE);
 
 EthernetClient client;
 MySQL_Connection conn((Client *)&client);
+
+char query[128];
 
 void setup() {
   Serial.begin(9600);
@@ -67,14 +82,27 @@ void setup() {
 
 
 void loop() {
-  delay(2000);
+  delay(9000);
+
+  float h = dht.readHumidity();
+  // Reads temperature as Celsius
+  float t = dht.readTemperature();
+  
+  int mq7_value = analogRead(mq7_analogPin);
+  Serial.println(mq7_value);
+  Serial.println(h);
+  Serial.println(t);
 
   Serial.println("Recording data.");
 
   // Initiate the query class instance
   MySQL_Cursor *cur_mem = new MySQL_Cursor(&conn);
+
+  sprintf(query, INSERT_SQL, t, h, mq7_value);
+  Serial.println(query);
+  
   // Execute the query
-  cur_mem->execute(INSERT_SQL);
+  cur_mem->execute(query);
   // Note: since there are no results, we do not need to read any data
   // Deleting the cursor also frees up memory used
   delete cur_mem;
