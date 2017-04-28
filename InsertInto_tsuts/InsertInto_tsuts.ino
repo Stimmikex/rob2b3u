@@ -1,7 +1,7 @@
 /*
-  Strymir Oli Thorsteinsson
+  Strymir Óli Þorsteinsson
   26/04/2017
-  Hita- og gasmaelir.
+  Hita- og gasmælir.
 */
 #include <Ethernet.h>
 #include <MySQL_Connection.h>
