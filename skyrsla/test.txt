@@ -1,0 +1,4 @@
+hitamælir:
+\lstinputlisting[language=Octave]{code/humidity_heat/humidity_heat.ino}
+MQ7 mælir:
+\lstinputlisting[language=Octave]{code/gas_sensing/gas_sensing.ino}

@@ -3,3 +3,20 @@ Hér skal gera lýsingu á prófunum á kerfinu . Til dæmis ef þið eruð með
 
 Prófun á Arduino
 Ég er búinn að prófa Arduino-inn með öllu sem ég ættla að hafa í verkefninu, gas mælirinn, hita og humitity mælirinn, all virkar sitthvort og núna virkar allt saman.
+
+Prófun á Hitamælir: \\
+Ég byrjaði að vinna á því að virkja hitamælirinn sem var ekkert erfitt, ég tengdi hann upp eins og ég var búinn að sjá á netinu, bætti við viðnámi til að fá nákvæmari tölur, kom honum svo í gang er létt arduino-ið skirfa svo út upplýsingarnar sem "Seria.print();".
+\begingroup
+\lstinputlisting[language=Octave]{code/humidity_heat/humidity_heat.ino}
+\endgroup
+Prófun á MQ7 mæli: \\
+Eftir að hafa klárað Hitamælirinn tók ég hann í sundur og byrjaði að setja upp MQ7 mælirinn og líka á samatíma setti ég upp buzzer sem er lítill hlutur sem býr til hljóð og ættlaði ég að láta þá vinna saman sem gékk í fyrstu eftir að ég hafði sett upp MQ7 mælinn það var létt að tengja mælirinn þar sem ég var búinn að læra smá frá því að setja upp hitamælirninn, hérna er kóðinn saem ég notaði til þess að fá MQ7 mælinn.
+\begingroup
+\lstinputlisting[language=Octave]{code/gas_sensing/gas_sensing.ino}
+\endgroup
+
+Prófun á bæði saman: \\
+Svo þegar ég var búinn með báða partana af verkefninu setti ég þá saman sem virkað frábærlega og ég hafði engin vandamál með það og kóðinn passaði saman án þessa að ég mundi lenda í einhverju hremingum.
+
+Ethernet/Wifi prófun: \\
+ég byrjað með að ákveða að nota Wifi... sem var ekki góð hugmynd þar sem ég var fastur á því alltof lengi og ég var ekki viss um hvort ég mundi klára verkefnið en svo áhvað ég að hætta með Wifi og nota ethernet, Ethernet var líka vandamál og ég var fastur á því lengur en wifi-inu þar sem ein arduino-ið sem ég var að nota virkaði ekki með ethernet hlutinum svo ég skifti um ethernet hlut og ardiuno sem á endanum létt allt virka og þá loksins vrikaði allt og það eina sem ég átti eftir var að setja göngin inná gagnasafnið mitt.
